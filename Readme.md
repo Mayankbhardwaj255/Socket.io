@@ -47,6 +47,13 @@ Make sure you have the following installed:
    npm run dev
    ```
 
+3. **Login to Enable Socket.IO Functionality**
+
+Once both servers are running, visit http://localhost:3000/login in your browser to log in.
+Authentication is handled using JWT and cookies, and logging in is required to access real-time features powered by Socket.IO.
+
+After logging in, you can begin using the real-time features provided in this demo.
+
 The application should now be running, and you can interact with it through the frontend.
 
 ## Technologies Used
