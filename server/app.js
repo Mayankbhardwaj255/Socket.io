@@ -6,7 +6,7 @@ import jwt from "jsonwebtoken";
 import cookieParser from "cookie-parser";
 
 const secretKeyJWT = "asdasdsadasdasdasdsa";
-const port = 3000;
+const PORT = 3000;
 
 const app = express();
 const server = createServer(app);
@@ -70,6 +70,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+server.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
