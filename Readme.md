@@ -5,7 +5,7 @@ This repository demonstrates how Socket.IO works with a simple client-server set
 - **client/** - The frontend implementation.
 - **server/** - The backend implementation.
 
-## Getting Started
+
 
 ### Prerequisites
 Make sure you have the following installed:
